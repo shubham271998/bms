@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Suite">
+              <span class="suite-name border-failed">Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Suite">
+                    <span>C:\Users\srao9\Downloads\BookMyShowAutomation-fourth_branch\BookMyShowAutomation-fourth_branch\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.sportsNameCollectionTest" hash-for-method="clickAllLinks">clickAllLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.movieNameCollectionTest" hash-for-method="moviesData">moviesData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.loginFunctionalityTest" hash-for-method="openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)">openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.movieNameCollectionTest" hash-for-method="openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)">openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.loginFunctionalityTest" hash-for-method="signUp(\\Screenshots\\test_4.png)">signUp(\\Screenshots\\test_4.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.loginFunctionalityTest" hash-for-method="signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)">signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.movieNameCollectionTest" hash-for-method="signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)">signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.loginFunctionalityTest" hash-for-method="signUpUsingGoogle(\\Screenshots\\test_5.png)">signUpUsingGoogle(\\Screenshots\\test_5.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="Automation.BookMyShow.loginFunctionalityTest" hash-for-method="switchWindow(\\Screenshots\\test_6.png)">switchWindow(\\Screenshots\\test_6.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Automation.BookMyShow.sportsNameCollectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAllLinks">
+                  </a> <!-- clickAllLinks -->
+                  <span class="method-name">clickAllLinks</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 299.996
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-P8L6JL1&apos;, ip: &apos;192.168.231.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52245}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 499db932105e8867df482fe2a97e068e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at Automation.BookMyShow.sportsNameCollectionTest.clickAllLinks(sportsNameCollectionTest.java:145)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Automation.BookMyShow.movieNameCollectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="moviesData">
+                  </a> <!-- moviesData -->
+                  <span class="method-name">moviesData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)">
+                  </a> <!-- openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png) -->
+                  <span class="method-name">openBrowser</span>
+                  <span class="parameters">(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)">
+                  </a> <!-- signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png) -->
+                  <span class="method-name">signUpNCR</span>
+                  <span class="parameters">(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Automation.BookMyShow.loginFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)">
+                  </a> <!-- openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png) -->
+                  <span class="method-name">openBrowser</span>
+                  <span class="parameters">(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUp(\\Screenshots\\test_4.png)">
+                  </a> <!-- signUp(\\Screenshots\\test_4.png) -->
+                  <span class="method-name">signUp</span>
+                  <span class="parameters">(\\Screenshots\\test_4.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)">
+                  </a> <!-- signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png) -->
+                  <span class="method-name">signUpNCR</span>
+                  <span class="parameters">(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpUsingGoogle(\\Screenshots\\test_5.png)">
+                  </a> <!-- signUpUsingGoogle(\\Screenshots\\test_5.png) -->
+                  <span class="method-name">signUpUsingGoogle</span>
+                  <span class="parameters">(\\Screenshots\\test_5.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchWindow(\\Screenshots\\test_6.png)">
+                  </a> <!-- switchWindow(\\Screenshots\\test_6.png) -->
+                  <span class="method-name">switchWindow</span>
+                  <span class="parameters">(\\Screenshots\\test_6.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+        </div> <!-- panel Test_Suite -->
+        <div panel-name="test-xml-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\srao9\Downloads\BookMyShowAutomation-fourth_branch\BookMyShowAutomation-fourth_branch\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Suite&quot;&gt;
+  &lt;parameter name=&quot;Path9&quot; value=&quot;\\Screenshots\\test_9.png&quot;/&gt;
+  &lt;parameter name=&quot;Path6&quot; value=&quot;\\Screenshots\\test_6.png&quot;/&gt;
+  &lt;parameter name=&quot;Path5&quot; value=&quot;\\Screenshots\\test_5.png&quot;/&gt;
+  &lt;parameter name=&quot;Path8&quot; value=&quot;\\Screenshots\\test_8.png&quot;/&gt;
+  &lt;parameter name=&quot;Path7&quot; value=&quot;\\Screenshots\\test_7.png&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://in.bookmyshow.com/&quot;/&gt;
+  &lt;parameter name=&quot;Path10&quot; value=&quot;\\Screenshots\\test_10.png&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;Path2&quot; value=&quot;\\Screenshots\\test_2.png&quot;/&gt;
+  &lt;parameter name=&quot;Path1&quot; value=&quot;\\Screenshots\\test_1.png&quot;/&gt;
+  &lt;parameter name=&quot;Path4&quot; value=&quot;\\Screenshots\\test_4.png&quot;/&gt;
+  &lt;parameter name=&quot;Path3&quot; value=&quot;\\Screenshots\\test_3.png&quot;/&gt;
+  &lt;parameter name=&quot;Path0&quot; value=&quot;\\Screenshots\\test_0.png&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;login test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Automation.BookMyShow.loginFunctionalityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;movie Name test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Automation.BookMyShow.movieNameCollectionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- movie Name test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;sports Name test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Automation.BookMyShow.sportsNameCollectionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- sports Name test --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">movie Name test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">sports Name test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite');
+function tableData_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickAllLinks')
+data.setCell(0, 2, 'Automation.BookMyShow.sportsNameCollectionTest')
+data.setCell(0, 3, 515213);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openBrowser')
+data.setCell(1, 2, 'Automation.BookMyShow.loginFunctionalityTest')
+data.setCell(1, 3, 10258);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'openBrowser')
+data.setCell(2, 2, 'Automation.BookMyShow.movieNameCollectionTest')
+data.setCell(2, 3, 9672);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'moviesData')
+data.setCell(3, 2, 'Automation.BookMyShow.movieNameCollectionTest')
+data.setCell(3, 3, 7958);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'switchWindow')
+data.setCell(4, 2, 'Automation.BookMyShow.loginFunctionalityTest')
+data.setCell(4, 3, 3631);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signUpNCR')
+data.setCell(5, 2, 'Automation.BookMyShow.loginFunctionalityTest')
+data.setCell(5, 3, 1561);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUpNCR')
+data.setCell(6, 2, 'Automation.BookMyShow.movieNameCollectionTest')
+data.setCell(6, 3, 1449);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signUpUsingGoogle')
+data.setCell(7, 2, 'Automation.BookMyShow.loginFunctionalityTest')
+data.setCell(7, 3, 830);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signUp')
+data.setCell(8, 2, 'Automation.BookMyShow.loginFunctionalityTest')
+data.setCell(8, 3, 796);
+window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Test_Suite">
+              </div> <!-- times-div-Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Automation.BookMyShow.loginFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome, \\Screenshots\\test_0.png)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</span>
+                <span class="method-start">5934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</span>
+                <span class="method-start">16194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUp(\\Screenshots\\test_4.png)</span>
+                <span class="method-start">17756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpUsingGoogle(\\Screenshots\\test_5.png)</span>
+                <span class="method-start">18553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchWindow(\\Screenshots\\test_6.png)</span>
+                <span class="method-start">19385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">23017 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Automation.BookMyShow.movieNameCollectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome, \\Screenshots\\test_0.png)</span>
+                <span class="method-start">25013 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</span>
+                <span class="method-start">27836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</span>
+                <span class="method-start">37508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">moviesData</span>
+                <span class="method-start">38958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">46916 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Automation.BookMyShow.sportsNameCollectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickAllLinks</span>
+                <span class="method-start">50286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">565844 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

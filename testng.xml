@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="URL" value="https://in.bookmyshow.com/">
+	</parameter>
+	<parameter name="Path0" value="\\Screenshots\\test_0.png">
+	</parameter>
+	<parameter name="Path1" value="\\Screenshots\\test_1.png">
+	</parameter>
+	<parameter name="Path2" value="\\Screenshots\\test_2.png">
+	</parameter>
+	<parameter name="Path3" value="\\Screenshots\\test_3.png">
+	</parameter>
+	<parameter name="Path4" value="\\Screenshots\\test_4.png">
+	</parameter>
+	<parameter name="Path5" value="\\Screenshots\\test_5.png">
+	</parameter>
+	<parameter name="Path6" value="\\Screenshots\\test_6.png">
+	</parameter>
+	<parameter name="Path7" value="\\Screenshots\\test_7.png">
+	</parameter>
+	<parameter name="Path8" value="\\Screenshots\\test_8.png">
+	</parameter>
+	<parameter name="Path9" value="\\Screenshots\\test_9.png">
+	</parameter>
+	<parameter name="Path10" value="\\Screenshots\\test_10.png">
+	</parameter>
+
+
+	<test name="login test">
+		<classes>
+			<class name="Automation.BookMyShow.loginFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="movie Name test">
+		<classes>
+			<class name="Automation.BookMyShow.movieNameCollectionTest" />
+		</classes>
+	</test>
+	<test name="sports Name test">
+		<classes>
+			<class name="Automation.BookMyShow.sportsNameCollectionTest" />
+		</classes>
+	</test><!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="567162" started-at="2021-07-04T08:58:30Z" finished-at="2021-07-04T09:07:57Z">
+    <groups>
+    </groups>
+    <test name="login test" duration-ms="24966" started-at="2021-07-04T08:58:30Z" finished-at="2021-07-04T08:58:55Z">
+      <class name="Automation.BookMyShow.loginFunctionalityTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="setup" is-config="true" duration-ms="5878" started-at="2021-07-04T08:58:30Z" finished-at="2021-07-04T08:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\Screenshots\\test_0.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="openBrowser" duration-ms="10258" started-at="2021-07-04T08:58:36Z" finished-at="2021-07-04T08:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\Screenshots\\test_1.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="signUpNCR(java.lang.String, java.lang.String)[pri:1, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="signUpNCR" duration-ms="1561" started-at="2021-07-04T08:58:46Z" finished-at="2021-07-04T08:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\\Screenshots\\test_2.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\Screenshots\\test_3.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpNCR -->
+        <test-method status="PASS" signature="signUp(java.lang.String)[pri:2, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="signUp" duration-ms="796" started-at="2021-07-04T08:58:48Z" finished-at="2021-07-04T08:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\\Screenshots\\test_4.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="signUpUsingGoogle(java.lang.String)[pri:3, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="signUpUsingGoogle" duration-ms="830" started-at="2021-07-04T08:58:49Z" finished-at="2021-07-04T08:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\\Screenshots\\test_5.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpUsingGoogle -->
+        <test-method status="PASS" signature="switchWindow(java.lang.String)[pri:4, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="switchWindow" duration-ms="3631" started-at="2021-07-04T08:58:49Z" finished-at="2021-07-04T08:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\\Screenshots\\test_6.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindow -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Automation.BookMyShow.loginFunctionalityTest@6ae5aa72]" name="closeDriver" is-config="true" duration-ms="1948" started-at="2021-07-04T08:58:53Z" finished-at="2021-07-04T08:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Automation.BookMyShow.loginFunctionalityTest -->
+    </test> <!-- login test -->
+    <test name="movie Name test" duration-ms="22798" started-at="2021-07-04T08:58:55Z" finished-at="2021-07-04T08:59:18Z">
+      <class name="Automation.BookMyShow.movieNameCollectionTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Automation.BookMyShow.movieNameCollectionTest@4efbca5a]" name="setup" is-config="true" duration-ms="2823" started-at="2021-07-04T08:58:55Z" finished-at="2021-07-04T08:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\Screenshots\\test_0.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:Automation.BookMyShow.movieNameCollectionTest@4efbca5a]" name="openBrowser" duration-ms="9672" started-at="2021-07-04T08:58:58Z" finished-at="2021-07-04T08:59:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\Screenshots\\test_1.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="signUpNCR(java.lang.String, java.lang.String)[pri:1, instance:Automation.BookMyShow.movieNameCollectionTest@4efbca5a]" name="signUpNCR" duration-ms="1449" started-at="2021-07-04T08:59:07Z" finished-at="2021-07-04T08:59:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\\Screenshots\\test_2.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\Screenshots\\test_3.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpNCR -->
+        <test-method status="PASS" signature="moviesData()[pri:2, instance:Automation.BookMyShow.movieNameCollectionTest@4efbca5a]" name="moviesData" duration-ms="7958" started-at="2021-07-04T08:59:09Z" finished-at="2021-07-04T08:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moviesData -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Automation.BookMyShow.movieNameCollectionTest@4efbca5a]" name="closeDriver" is-config="true" duration-ms="895" started-at="2021-07-04T08:59:17Z" finished-at="2021-07-04T08:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Automation.BookMyShow.movieNameCollectionTest -->
+    </test> <!-- movie Name test -->
+    <test name="sports Name test" duration-ms="519327" started-at="2021-07-04T08:59:18Z" finished-at="2021-07-04T09:07:57Z">
+      <class name="Automation.BookMyShow.sportsNameCollectionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Automation.BookMyShow.sportsNameCollectionTest@4f83df68]" name="setup" is-config="true" duration-ms="2450" started-at="2021-07-04T08:59:18Z" finished-at="2021-07-04T08:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="clickAllLinks()[pri:0, instance:Automation.BookMyShow.sportsNameCollectionTest@4f83df68]" name="clickAllLinks" duration-ms="515213" started-at="2021-07-04T08:59:20Z" finished-at="2021-07-04T09:07:55Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 299.996
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52245}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 499db932105e8867df482fe2a97e068e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 299.996
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52245}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 499db932105e8867df482fe2a97e068e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+at Automation.BookMyShow.sportsNameCollectionTest.clickAllLinks(sportsNameCollectionTest.java:145)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAllLinks -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Automation.BookMyShow.sportsNameCollectionTest@4f83df68]" name="closeDriver" is-config="true" duration-ms="1317" started-at="2021-07-04T09:07:56Z" finished-at="2021-07-04T09:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Automation.BookMyShow.sportsNameCollectionTest -->
+    </test> <!-- sports Name test -->
+  </suite> <!-- Test Suite -->
+</testng-results>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Path9" value="\\Screenshots\\test_9.png"/>
+  <parameter name="Path6" value="\\Screenshots\\test_6.png"/>
+  <parameter name="Path5" value="\\Screenshots\\test_5.png"/>
+  <parameter name="Path8" value="\\Screenshots\\test_8.png"/>
+  <parameter name="Path7" value="\\Screenshots\\test_7.png"/>
+  <parameter name="URL" value="https://in.bookmyshow.com/"/>
+  <parameter name="Path10" value="\\Screenshots\\test_10.png"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Path2" value="\\Screenshots\\test_2.png"/>
+  <parameter name="Path1" value="\\Screenshots\\test_1.png"/>
+  <parameter name="Path4" value="\\Screenshots\\test_4.png"/>
+  <parameter name="Path3" value="\\Screenshots\\test_3.png"/>
+  <parameter name="Path0" value="\\Screenshots\\test_0.png"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Automation.BookMyShow.Test_Execution">
+        <methods>
+          <include name="switchWindow"/>
+          <include name="openBrowser"/>
+          <include name="signUp"/>
+          <include name="signUpUsingGoogle"/>
+          <include name="priceSelector"/>
+          <include name="sports"/>
+          <include name="setup"/>
+          <include name="rangeSelector"/>
+          <include name="moviesData"/>
+          <include name="closeDriver"/>
+          <include name="signUpNCR"/>
+          <include name="weekendSelector"/>
+        </methods>
+      </class> <!-- Automation.BookMyShow.Test_Execution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="SportsTest(failed)">
+    <classes>
+      <class name="Automation.BookMyShow.sportsNameCollectionTest">
+        <methods>
+          <include name="clickAllLinks"/>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- Automation.BookMyShow.sportsNameCollectionTest -->
+    </classes>
+  </test> <!-- SportsTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
